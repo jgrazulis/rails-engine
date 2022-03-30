@@ -57,6 +57,15 @@
           null
         ]
       },
+      "/Users/jgrazulis/turing/3module/projects/rails-engine/app/controllers/api/v1/merchant_items_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/jgrazulis/turing/3module/projects/rails-engine/app/controllers/api/v1/merchants_controller.rb": {
         "lines": [
           1,
@@ -157,6 +166,6 @@
         }
       }
     },
-    "timestamp": 1648670783
+    "timestamp": 1648671549
   }
 }
