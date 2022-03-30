@@ -18,6 +18,12 @@ describe "Items API" do
     expect(items[:data].count).to eq(6)
 
     items[:data].each do |item|
+      expect(item).to have_key(:type)
+      expect(item[:type]).to eq("item")
+
+      expect(item).to have_key(:attributes)
+      expect(item[:attributes]).to be_a(Hash)
+
       expect(item).to have_key(:id)
       expect(item[:id]).to be_a(String)
 
