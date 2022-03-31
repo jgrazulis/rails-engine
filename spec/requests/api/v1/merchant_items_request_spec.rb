@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe "Merchant Items API" do
+RSpec.describe "Merchant Items endpoints" do
   it "sends a list of items for a given merchant id" do
     merchant1 = create(:merchant)
     merchant1.items.create!(name: Faker::Coffee.blend_name, description: Faker::Coffee.notes, unit_price: Faker::Number.decimal)
