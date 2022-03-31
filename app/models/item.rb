@@ -1,8 +1,7 @@
 class Item < ApplicationRecord
   belongs_to :merchant
 
-  validates_presence_of :name
+  validates :name, presence: true, format: {with: /[a-zA-Z]/}
   validates_presence_of :description
-  validates_presence_of :unit_price
-  validates_numericality_of :unit_price
-end
+  validates :unit_price, numericality: true
+end 
