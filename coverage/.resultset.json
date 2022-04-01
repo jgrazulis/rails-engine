@@ -9,6 +9,22 @@
           1,
           1,
           1,
+          null,
+          1,
+          5,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
           null
         ]
       },
@@ -37,7 +53,7 @@
           null,
           null,
           1,
-          0,
+          7,
           null,
           null,
           1,
@@ -88,15 +104,6 @@
           null
         ]
       },
-      "/Users/jgrazulis/turing/3module/projects/rails-engine/app/controllers/api/v1/merchant_items_controller.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
       "/Users/jgrazulis/turing/3module/projects/rails-engine/app/controllers/api/v1/merchants_controller.rb": {
         "lines": [
           1,
@@ -116,6 +123,15 @@
           1,
           1,
           1,
+          null
+        ]
+      },
+      "/Users/jgrazulis/turing/3module/projects/rails-engine/app/controllers/api/v1/merchant_items_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
           null
         ]
       },
@@ -176,6 +192,42 @@
         "branches": {
         }
       },
+      "/Users/jgrazulis/turing/3module/projects/rails-engine/app/controllers/api/v1/item_search_controller.rb": {
+        "lines": [
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
       "/Users/jgrazulis/turing/3module/projects/rails-engine/app/channels/application_cable/connection.rb": {
         "lines": [
           0,
@@ -197,6 +249,6 @@
         }
       }
     },
-    "timestamp": 1648759490
+    "timestamp": 1648822226
   }
 }
